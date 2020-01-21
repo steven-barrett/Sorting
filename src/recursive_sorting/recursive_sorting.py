@@ -1,3 +1,4 @@
+
 # TO-DO: complete the helpe function below to merge 2 sorted arrays
 def merge(arrA, arrB):
     l_one = len(arrA)
@@ -19,13 +20,11 @@ def merge(arrA, arrB):
 
     return res
 
-
 l1 = [1, 3, 5, 7, 8, 9]
 l2 = [2, 4, 6, 10, 12]
 print(merge(l1, l2))
 
 # TO-DO: implement the Merge Sort function below USING RECURSION
-
 
 def partition(l):
     lft = []
@@ -38,7 +37,6 @@ def partition(l):
         else:
             rgt.append(v)
     return lft, pvt, rgt
-
 
 def merge_sort(arr):
     if len(arr) <= 1:
@@ -57,13 +55,11 @@ print('RECURSIVE', merge_sort(data))
 
 def merge_in_place(arr, start, mid, end):
     # TO-DO
-
     return arr
 
 
 def merge_sort_in_place(arr, l, r):
     # TO-DO
-
     return arr
 
 
